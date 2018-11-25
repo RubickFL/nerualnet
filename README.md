@@ -9,6 +9,7 @@ If you want to be contributor, just write me.
 ------------------------------------------------------------------------------------------
 
 MAKEUP:
+In begin, you should read and change CMakeLists.txt if it needed!
 $cmake code
 $make
 ------------------------------------------------------------------------------------------

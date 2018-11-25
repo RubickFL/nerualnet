@@ -51,4 +51,7 @@ private:
 	double outputVal;
 	double gradient;
 	std::vector<Connection> outputWeights;
+
+
+	char padding[16];
 };

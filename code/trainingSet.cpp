@@ -1,5 +1,6 @@
 /*
 	*This is 'teech' neuronet class
+	*Now it's necessarily class to neuronet can complete her task and work right, but it's just milestone of beta version.
 */
 
 

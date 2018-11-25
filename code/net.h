@@ -21,4 +21,7 @@ private:
 	double error;
 	double recentAverageError;
 	static double recentAverageSmoothingFactor;
+
+	
+	char padding[24];
 };

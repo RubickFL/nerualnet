@@ -1,5 +1,5 @@
 /*
-	*This is main file which starts 'teech' a neuronet and show you logs
+	*This is main file which starts and 'teech' a neuronet and show you logs
 */
 
 #include "trainingSet.h"

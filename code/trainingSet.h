@@ -21,4 +21,7 @@ public:
 
 private:
 	std::ifstream trainingDataFile;
+
+
+	char padding[56];
 };

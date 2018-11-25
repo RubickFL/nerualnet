@@ -1,5 +1,6 @@
 /*
 	*This is neuronet class which use neuron class in.
+	*So, I can say that this is core and logical hub.
 */
 
 

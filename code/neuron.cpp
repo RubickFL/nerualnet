@@ -1,5 +1,6 @@
 /*
 	*This is neuron class which uses in net.
+	*So, I can say that this is logic kernel.
 */
 
 

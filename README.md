@@ -1,6 +1,6 @@
 # nerualnet
 nerualnet for slow computers by Rub!ck
-WARNING: it can complete her task only with float and integer val('s)... If you want to "teach" neuronet complete task with string(s) - just cast your string. You can use my lib <voidCast.h> in https://github.com/RubickFL/my_lib
+WARNING: it can complete her task only with float and integer val('s)... If you want to "teach" neuronet complete task with string(s) - just cast your string. You can use my lib <voidCast.h> in https://github.com/RubickFL/my_libs
 
 
 makeup:

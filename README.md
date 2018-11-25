@@ -1,15 +1,20 @@
 # nerualnet
+
+------------------------------------------------------------------------------------------
+MAIN:
 nerualnet for slow computers by Rub!ck
-WARNING: it can complete her task only with float and integer val('s)... If you want to "teach" neuronet complete task with string(s) - just cast your string. You can use my lib <voidCast.h> in https://github.com/RubickFL/my_libs
+warnin: it can complete her task only with float and integer val('s)... If you want to "teach" neuronet complete task with string(s) - just cast your string to int. You can use my lib <voidCast.h> in https://github.com/RubickFL/my_libs
 Nerualnet code you can find in path 'code'.
+If you want to be contributor, just write me.
+------------------------------------------------------------------------------------------
 
-
-makeup:
+MAKEUP:
 $cmake code
 $make
+------------------------------------------------------------------------------------------
 
-
-data.txt is file which "teaches" the neuronet
+TRAINING:
+data.txt is file which "teaches" the neuronet and feed it info
 
 in topology option you should to set:
   1) count of input neurons
@@ -18,3 +23,4 @@ in topology option you should to set:
   
 in in option you should to set input val('s) without ","
 in out option you should to set output val('s) without ","
+------------------------------------------------------------------------------------------

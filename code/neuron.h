@@ -18,8 +18,8 @@ struct Connection {
 
 class Neuron {
 public:
-	Neuron						(unsigned numOutputs, unsigned myIndex);
-	void feedForward			(const Layer &prevLayer);
+	Neuron				(unsigned numOutputs, unsigned myIndex);
+	void feedForward		(const Layer &prevLayer);
 	void calcOutputGradients	(double targetVals);
 	void calcHiddenGradients	(const Layer &nextLayer);
 	void updateInputWeights		(Layer &prevLayer);
@@ -41,8 +41,8 @@ private:
 	}
 
 
-	static double activationFunction			(double x);
-	static double activationFunctionDerivative	(double x);
+	static double activationFunction					(double x);
+	static double activationFunctionDerivative				(double x);
 	double sumDOW								(const Layer &nextLayer) const;
 
 

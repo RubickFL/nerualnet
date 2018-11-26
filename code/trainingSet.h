@@ -14,8 +14,8 @@ public:
 		return trainingDataFile.eof();
 	}
 
-	TrainingSet					(const std::string filename);
-	void getTopology			(std::vector<unsigned> &topology);
+	TrainingSet			(const std::string filename);
+	void getTopology		(std::vector<unsigned> &topology);
 	unsigned getNextInputs		(std::vector<double> &inputVals);
 	unsigned getTargetOutputs	(std::vector<double> &targetOutputVals);
 

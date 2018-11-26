@@ -18,7 +18,7 @@ int randomize() {
 int main(void) {
 	srand(time(NULL));
 	FILE *filestr = fopen("data.txt", "w");
-	fprintf(filestr, "topology: 2 3 1");
+	fprintf(filestr, "topology: 2 3 1\n");
 
 	for (int i = 0; i < TESTS; ++i) {
 		int a = randomize();
